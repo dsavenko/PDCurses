@@ -45,6 +45,15 @@ add_library(PDcurses
     pdcurses/touch.c
     pdcurses/util.c
     pdcurses/window.c
+
+    wincon/pdcclip.c
+    wincon/pdcdisp.c
+    wincon/pdcgetsc.c
+    wincon/pdckbd.c
+    wincon/pdcscrn.c
+    wincon/pdcsetsc.c
+    wincon/pdcutil.c
+    wincon/pdcwin.h
 )
 
 target_include_directories(PDcurses
